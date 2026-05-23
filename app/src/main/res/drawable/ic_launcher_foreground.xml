@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <vector
+            android:width="108dp"
+            android:height="108dp"
+            android:viewportWidth="108"
+            android:viewportHeight="108">
+
+            <!-- Heart shape background (green) -->
+            <path
+                android:fillColor="#4CAF50"
+                android:pathData="M54,92 C28,72 14,58 14,44 C14,28 24,18 36,18 C44,18 52,24 54,32 C56,24 64,18 72,18 C84,18 94,28 94,44 C94,58 80,72 54,92 Z" />
+
+            <!-- Heart shape accent (blue for AI) -->
+            <path
+                android:fillColor="#00BCD4"
+                android:pathData="M54,92 C54,92 80,72 80,44 C80,32 72,24 64,24 C59,24 54,27 54,32 C54,27 49,24 44,24 C36,24 28,32 28,44 C28,58 42,72 54,92 Z"
+                android:alpha="0.8" />
+
+            <!-- Health wave symbol -->
+            <path
+                android:strokeColor="#FFFFFF"
+                android:strokeWidth="2"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round"
+                android:fillColor="@android:color/transparent"
+                android:pathData="M20,54 L32,54 L38,40 L44,66 L52,54 L60,54 L68,45 L74,63 L80,54 L96,54" />
+
+            <!-- AI circuit dots -->
+            <path
+                android:fillColor="#00BCD4"
+                android:pathData="M 77.5,28 A 2.5,2.5 0 1,0 82.5,28 A 2.5,2.5 0 1,0 77.5,28" />
+            <path
+                android:fillColor="#00BCD4"
+                android:pathData="M 89.5,36 A 2.5,2.5 0 1,0 94.5,36 A 2.5,2.5 0 1,0 89.5,36" />
+            <path
+                android:fillColor="#00BCD4"
+                android:pathData="M 89.5,50 A 2.5,2.5 0 1,0 94.5,50 A 2.5,2.5 0 1,0 89.5,50" />
+
+            <!-- AI circuit lines -->
+            <path
+                android:strokeColor="#00BCD4"
+                android:strokeWidth="1"
+                android:fillColor="@android:color/transparent"
+                android:pathData="M80,28 L92,36 L92,50" />
+            <path
+                android:strokeColor="#00BCD4"
+                android:strokeWidth="1"
+                android:fillColor="@android:color/transparent"
+                android:pathData="M80,40 L92,36" />
+            <path
+                android:strokeColor="#00BCD4"
+                android:strokeWidth="1"
+                android:fillColor="@android:color/transparent"
+                android:pathData="M80,40 L92,50" />
+        </vector>
+    </item>
+</layer-list>

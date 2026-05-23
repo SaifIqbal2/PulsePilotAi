@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Heart shape background (green) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,180 C30,140 10,110 10,80 C10,50 30,35 50,35 C65,35 80,45 100,60 C120,45 135,35 150,35 C170,35 190,50 190,80 C190,110 170,140 100,180 Z" />
+
+    <!-- Heart shape accent (blue for AI) -->
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M100,180 C100,180 150,140 150,80 C150,55 135,45 120,45 C110,45 100,50 100,60 C100,50 90,45 80,45 C65,45 50,55 50,80 C50,110 70,140 100,180 Z"
+        android:alpha="0.8" />
+
+    <!-- Health wave symbol -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M30,100 L50,100 L60,80 L70,120 L85,100 L100,100 L115,85 L125,115 L135,100 L150,100 L170,100" />
+
+    <!-- AI circuit dots -->
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M 136,50 A 4,4 0 1,0 144,50 A 4,4 0 1,0 136,50" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M 156,65 A 4,4 0 1,0 164,65 A 4,4 0 1,0 156,65" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M 156,85 A 4,4 0 1,0 164,85 A 4,4 0 1,0 156,85" />
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M 142.5,75 A 2.5,2.5 0 1,0 147.5,75 A 2.5,2.5 0 1,0 142.5,75" />
+
+    <!-- AI circuit lines -->
+    <path
+        android:strokeColor="#00BCD4"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M145,50 L160,65 L160,85" />
+    <path
+        android:strokeColor="#00BCD4"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M145,75 L160,65" />
+    <path
+        android:strokeColor="#00BCD4"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M145,75 L160,85" />
+
+</vector>
