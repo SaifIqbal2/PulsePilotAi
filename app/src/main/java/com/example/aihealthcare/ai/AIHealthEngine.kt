@@ -1,6 +1,7 @@
 package com.example.aihealthcare.ai
 
 import android.util.Log
+import com.example.aihealthcare.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -35,7 +36,9 @@ interface GroqApiService {
 
 object AIHealthEngine {
     private const val TAG = "AIHealthEngine"
-    private const val API_KEY = "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"
+    // API Key is loaded from BuildConfig which reads from local.properties
+    // DO NOT hardcode API keys - they will be caught by GitHub secret scanning
+    private val API_KEY = BuildConfig.GROQ_API_KEY
     private const val MODEL_NAME = "llama-3.3-70b-versatile"
 
     private val client = OkHttpClient.Builder()

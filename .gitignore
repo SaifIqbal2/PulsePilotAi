@@ -1,0 +1,35 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.aab
+*.jar
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Build artifacts
+app/build/
+local.properties
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Environment files (API keys, credentials)
+local.properties
+.env
+.env.local
